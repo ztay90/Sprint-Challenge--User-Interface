@@ -146,7 +146,7 @@ footer nav a {
 }
 
 /*****************************************************************************************
-    MY WORK
+    HOME PAGE
 *******************************************************************************************/
 .header-info {
     display: flex;
@@ -198,4 +198,73 @@ header .header-info nav a {
 }
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
+}
+/*****************************************************************************************
+    ABOUT PAGE
+*******************************************************************************************/
+#about-section {
+    padding: 0 25px;
+}
+
+.line {
+	margin: 30px 0;
+	width: 100%;
+	border-bottom: 1px dashed black;
+}
+
+#about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#about-info .about-box1 {
+    width: 370px;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box2{
+    width: 370px;
+    height: 400px;
+    margin-right: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box3 {
+    width: 370px;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box4 {
+    width: 370px;
+    height: 400px;
+    margin-right: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info h5 {
+    margin-top: 25px;
+}
+#about-info p {
+    margin-bottom: 25px;
+}
+#about-info  a  {
+    border: 2px solid;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 8px 25px;
+    font-size: .8rem;
+    margin-top: 15px;
+}
+#about-info .dashed-line {
+    margin: 30px 0;
+	width: 100%;
+	border-bottom: 1px dashed black;
+}
+
+#work-section {
+    padding: 0 20px;
+    margin-bottom: 5%;
 }
