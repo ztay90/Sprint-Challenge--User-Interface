@@ -268,3 +268,79 @@ header .header-info nav a {
     padding: 0 20px;
     margin-bottom: 5%;
 }
+/*****************************************************************************************
+    EXTRA
+*******************************************************************************************/
+.shop-img1 {
+    background-image: url("https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+    width: 800px;
+    height: 178px;
+    background-position: center;
+    background-size: 800px 178px;
+    background-repeat: no-repeat;
+}
+
+.sign {
+    font-size: 5rem;
+    margin: 5% 0 1% 0;
+}
+
+#product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.shop-box {
+    margin: 25px 0;
+    text-align: center;
+}
+.shirt1 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt2 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt3 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt4 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shop-box h4 {
+    margin-top: 25px;
+}
+.shop-box p {
+    margin-bottom: 25px;
+}
+.shop-box a {
+    border: 2px solid;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: .8rem;
+    margin-top: 15px;
+
+}
