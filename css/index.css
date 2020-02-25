@@ -144,3 +144,279 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*****************************************************************************************
+    HOME PAGE
+*******************************************************************************************/
+.header-info {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    padding: 40px 0;
+    max-width: 100%;
+    
+}
+header .header-info nav {
+    width: 100%;
+}
+header .header-info nav a {
+    margin: 0 5%;
+    color: black;
+    text-decoration: none;
+    
+}
+.jumbo-img {
+    padding-bottom: 25px;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+/*****************************************************************************************
+    ABOUT PAGE
+*******************************************************************************************/
+#about-section {
+    padding: 0 25px;
+}
+
+.line {
+	margin: 30px 0;
+	width: 100%;
+	border-bottom: 1px dashed black;
+}
+
+#about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#about-info .about-box1 {
+    width: 370px;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box2{
+    width: 370px;
+    height: 400px;
+    margin-right: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box3 {
+    width: 370px;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info .about-box4 {
+    width: 370px;
+    height: 400px;
+    margin-right: 2.5%;
+    margin-bottom: 10%;
+}
+#about-info h5 {
+    margin-top: 25px;
+}
+#about-info p {
+    margin-bottom: 25px;
+}
+#about-info  a  {
+    border: 2px solid;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 8px 25px;
+    font-size: .8rem;
+    margin-top: 15px;
+}
+#about-info a:hover {
+    background-color: black;
+    color: white;
+}
+#about-info .dashed-line {
+    margin: 30px 0;
+	width: 100%;
+	border-bottom: 1px dashed black;
+}
+
+#work-section {
+    padding: 0 20px;
+    margin-bottom: 5%;
+}
+/*****************************************************************************************
+    SHOP PAGE
+*******************************************************************************************/
+.shop-img1 {
+    background-image: url("https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+    width: 800px;
+    height: 178px;
+    background-position: center;
+    background-size: 800px 178px;
+    background-repeat: no-repeat;
+}
+
+.sign {
+    font-size: 5rem;
+    margin: 5% 0 1% 0;
+}
+
+#product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.shop-box {
+    margin: 25px 0;
+    text-align: center;
+}
+.shirt1 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt2 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt3 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shirt4 {
+    background-image: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.shop-box h4 {
+    margin-top: 25px;
+}
+.shop-box p {
+    margin-bottom: 25px;
+}
+.shop-box a {
+    border: 2px solid;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: .8rem;
+    margin-top: 15px;
+
+}
+.shop-box a:hover {
+    background-color: black;
+    color: white;
+}
+/*****************************************************************************************
+    CONTACT PAGE
+*******************************************************************************************/
+#contact-us {
+	/* width: 1000px; */
+	margin: 5% auto;
+	/* background-color: red; */
+	padding: 10% 0;
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+}
+#contact-us h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 5rem;
+	/* font-family: 'Odibee Sans', cursive; */
+}
+#contact-us h6 {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+#contact-us p {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	line-height: 1.4;
+}
+#contact-us .input-name {
+	margin: 50px 0 30px 45px;
+} 
+#contact-us .input-email {
+	margin: 50px 0 30px 45px;
+} 
+#contact-us .message {
+	margin: 50px 0 30px 45px;
+} 
+
+.input {
+	height: 50px;
+	font-size: 1rem;
+	margin-top: 2%;
+	border-radius: 5px;
+}
+.message1 {
+	margin-bottom: 2%;
+	
+}
+.textarea {
+	border-radius: 5px;
+	font-size: 1.3rem;
+}
+#contact-us  a  {
+    display: inline-block;
+    border: 2px solid;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px 60px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 5% 40%;
+    justify-content: center;
+}
+#contact-us a:hover {
+    background-color: black;
+    color: white;
+}
